@@ -3,5 +3,5 @@
   import 'skeleton-elements/skeleton-elements.css'
 </script>
 <div>
-  <SkeletonBlock effect="wave" />
+  <SkeletonBlock width="200px" height="40px" effect="wave" />
 </div>
