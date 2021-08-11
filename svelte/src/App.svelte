@@ -19,7 +19,7 @@
 
   let isBusy = true //aria属性のコントロールのため、状態を変数に格納しておく
   const fetch = async() => {
-    await new Promise(r => setTimeout(r, 3000)) // 3秒待ってからにダミーデータを返す
+    await new Promise(r => setTimeout(r, 3000)) // 3秒待ってからにモックデータを返す
     isBusy = false
 
     return mockData
